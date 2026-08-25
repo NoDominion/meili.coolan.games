@@ -1,0 +1,36 @@
+:root {
+	--pink1-color: #ff49b0cc;
+	--pink3-color: #ff6e87;
+	--selection-color: #ffc525;
+	--yellow1-color: #ffe900cc;
+}
+
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 64px;
+	text-align: center;
+	color: var(--yellow1-color);
+	text-shadow: 2px 2px var(--pink1-color);
+}
+
+span.pinkshadow {
+	color: var(--pink1-color);
+	text-shadow: -1px -1px var(--yellow1-color);
+}
+
+span.pink {
+	color: var(--pink3-color);
+}
+
+a {
+	color: var(--pink1-color);
+	text-shadow: -1px -1px var(--yellow1-color);
+}
+
+::selection{
+	background:var(--selection-color);
+}
