@@ -5,16 +5,54 @@
 	--yellow1-color: #ffe900cc;
 }
 
+@font-face {
+	font-family: 'Bright';
+	src: url('fonts/BrightDEMO.otf');
+}
+
+@font-face {
+	font-family: 'KillGod';
+	src: url('fonts/KillGod.ttf');
+}
+
 body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 15px;
+	font-family: Garamond, serif;
+	font-size: 20px;
 }
 
 h1 {
-	font-size: 64px;
+	font-family: 'Bright';
+	font-size: 15vw; 
+	font-weight: 1;
 	text-align: center;
-	color: var(--yellow1-color);
-	text-shadow: 2px 2px var(--pink1-color);
+	color: var(--pink1-color);
+	text-shadow: -5px -5px var(--yellow1-color);
+	margin-top: 0px;
+	padding-top: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	line-height: 70px;
+}
+
+span.killgod {
+	font-family: 'KillGod';
+	font-weight: 1;
+	font-size: 1.9vw;
+	color: var(--pink1-color);
+}
+
+h2 {
+	font-family: 'Bright';
+	font-size: 7.7vw;
+	font-weight: 1;
+	text-align: center;
+	color: var(--pink1-color);
+	text-shadow: -5px -5px var(--yellow1-color);
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	line-height: 30px;
 }
 
 span.pinkshadow {
