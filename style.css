@@ -26,19 +26,18 @@ h1 {
 	font-weight: 1;
 	text-align: center;
 	color: var(--pink1-color);
-	text-shadow: -5px -5px var(--yellow1-color);
-	margin-top: 0px;
-	padding-top: 50px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	line-height: 70px;
+	text-shadow: -0.04em -0.04em var(--yellow1-color);
+	margin: 0 0 -2.5vw 0;
 }
 
-span.killgod {
+p.killgod {
+	text-align: center;
 	font-family: 'KillGod';
 	font-weight: 1;
-	font-size: 1.9vw;
+	font-size: 1.93vw;
+	text-align: center;
 	color: var(--pink1-color);
+	margin: 0 0 0 0;
 }
 
 h2 {
@@ -47,13 +46,39 @@ h2 {
 	font-weight: 1;
 	text-align: center;
 	color: var(--pink1-color);
-	text-shadow: -5px -5px var(--yellow1-color);
-	margin-top: 0px;
-	padding-top: 0px;
-	margin-bottom: 0px;
-	padding-bottom: 10px;
-	line-height: 30px;
+	text-shadow: -0.04em -0.04em var(--yellow1-color);
+	margin: 0 0 0vw 0;
 }
+
+img.squares {
+	display: flex; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 33vw;
+}
+
+h3 {
+	font-family: 'Bright';
+	font-size: 55px;
+	font-weight: 1;
+	text-align: center;
+	color: var(--pink1-color);
+	text-shadow: -3px -3px var(--yellow1-color);
+	padding-bottom: 0.01em;
+}
+
+h4 {
+	font-family: 'Bright';
+	font-size: 40px;
+	font-weight: 1;
+	text-align: center;
+	color: #ffffff;
+	background-color: var(--pink3-color);
+	border-radius: 2em;
+	padding-top: 0.01em;
+	
+}
+
 
 span.pinkshadow {
 	color: var(--pink1-color);
@@ -72,3 +97,7 @@ a {
 ::selection{
 	background:var(--selection-color);
 }
+
+
+
+
