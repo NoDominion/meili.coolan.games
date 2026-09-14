@@ -22,19 +22,19 @@ body {
 
 h1 {
 	font-family: 'Bright';
-	font-size: 15vw; 
+	font-size: 15vmin; 
 	font-weight: 1;
 	text-align: center;
 	color: var(--pink1-color);
 	text-shadow: -0.04em -0.04em var(--yellow1-color);
-	margin: 0 0 -2.5vw 0;
+	margin: 0 0 -2.9vmin 0;
 }
 
 p.killgod {
 	text-align: center;
 	font-family: 'KillGod';
 	font-weight: 1;
-	font-size: 1.93vw;
+	font-size: 1.93vmin;
 	text-align: center;
 	color: var(--pink1-color);
 	margin: 0 0 0 0;
@@ -42,29 +42,30 @@ p.killgod {
 
 h2 {
 	font-family: 'Bright';
-	font-size: 7.7vw;
+	font-size: 7.7vmin;
 	font-weight: 1;
 	text-align: center;
 	color: var(--pink1-color);
 	text-shadow: -0.04em -0.04em var(--yellow1-color);
-	margin: 0 0 0vw 0;
+	margin: 0 0 0vmin 0;
 }
 
 img.squares {
 	display: flex; 
 	margin-left: auto; 
 	margin-right: auto; 
-	width: 33vw;
+	width: 33vmin;
+
 }
 
 h3 {
 	font-family: 'Bright';
-	font-size: 55px;
+	font-size: 6vh;
 	font-weight: 1;
 	text-align: center;
 	color: var(--pink1-color);
 	text-shadow: -3px -3px var(--yellow1-color);
-	padding-bottom: 0.01em;
+	margin: 0 0 2vmin 0;
 }
 
 h4 {
@@ -75,7 +76,7 @@ h4 {
 	color: #ffffff;
 	background-color: var(--pink3-color);
 	border-radius: 2em;
-	padding-top: 0.01em;
+	margin: 0 0 -1vmin 0;
 	
 }
 
