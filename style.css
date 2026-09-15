@@ -1,8 +1,25 @@
 :root {
-	--pink1-color: #ff49b0cc;
-	--pink3-color: #ff6e87;
+
 	--selection-color: #ffc525;
+
 	--yellow1-color: #ffe900cc;
+	--yellow2-color: #ffe702cc;
+	--yellow3-color: #ffe108cc;
+	--yellow4-color: #ffd514cc;
+	--yellow5-color: #ffc525cc;
+
+	--orange1-color: #ff9c54cc;
+	--orange2-color: #ff836dcc;
+
+	--pink3-color: #ff6e87cc;
+	--pink2-color: #ff5a9bcc;
+	--pink1-color: #ff49b0cc;
+
+	--darkpink-color: #920b58cc;
+	--paleyellow-color: #ffdc7acc;
+
+	--paper-color: #ecdcb9;
+
 }
 
 @font-face {
@@ -15,9 +32,18 @@
 	src: url('fonts/KillGod.ttf');
 }
 
+html {
+	text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	background-color: #ecdcb9cc;
+}
+
+
 body {
 	font-family: Garamond, serif;
-	font-size: 20px;
+	font-size: 1.9vh;
 }
 
 h1 {
@@ -50,34 +76,39 @@ h2 {
 	margin: 0 0 0vmin 0;
 }
 
-img.squares {
-	display: flex; 
+div.squarespacer {
+	display: flex;
 	margin-left: auto; 
 	margin-right: auto; 
-	width: 33vmin;
+	justify-content: center;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
 
+img.squares {
+	width: 33vmin;
+	min-width: 33vh;
 }
 
 h3 {
 	font-family: 'Bright';
-	font-size: 6vh;
+	font-size: 5vh;
 	font-weight: 1;
 	text-align: center;
 	color: var(--pink1-color);
 	text-shadow: -3px -3px var(--yellow1-color);
-	margin: 0 0 2vmin 0;
+	margin: 0 0 -2vh 0;
 }
 
 h4 {
 	font-family: 'Bright';
-	font-size: 40px;
+	font-size: 3vh;
 	font-weight: 1;
 	text-align: center;
 	color: #ffffff;
 	background-color: var(--pink3-color);
 	border-radius: 2em;
-	margin: 0 0 -1vmin 0;
-	
+	padding: 1vh 10vmin 1vh 10vmin;
 }
 
 
@@ -87,7 +118,39 @@ span.pinkshadow {
 }
 
 span.pink {
-	color: var(--pink3-color);
+	color: var(--pink1-color);
+	text-shadow: -1px -1px var(--yellow1-color);
+}
+
+p.gametitle {
+	color: var(--darkpink-color);
+	text-shadow: -1px -1px var(--paleyellow-color);
+	text-shadow: 1px 1px var(--paleyellow-color);
+	font-family: 'tahoma';
+	font-style: bold;
+	font-weight: 1000;
+	font-size: 1.9vh;
+	margin: 0 0 0.4vh 0;
+}
+
+span.titleinfo {
+	color: var(--darkpink-color);
+	font-family: 'courier new';
+	font-style: bold;
+	font-weight: 1000;
+	font-size: 1.3vh;
+}
+
+span.platforms {
+	color: var(--darkpink-color);
+	font-family: 'courier new';
+	font-size: 1.2vh;
+	text-align: center;
+}
+
+p.paneltext {
+	line-height: 0.65em;
+	margin: 0;
 }
 
 a {
@@ -99,6 +162,77 @@ a {
 	background:var(--selection-color);
 }
 
+div.bulletbox {
+	width: 80vmin; 
+	height: fit-content; 
+	display: flex; 
+	flex-wrap: wrap; 
+	margin-left: auto; 
+	margin-right: auto; 
+	justify-content: center;	
+}
 
+span.bullettext {
+	text-align: center;
+	text-wrap: nowrap;
+	position: relative;
+	padding: 0 1em 0 1em;
+}
 
+span.bulletleft {
+	color:var(--pink3-color);
+	position: absolute;
+	left: -0.175em;
+}
 
+span.bulletright {
+	color:var(--pink3-color);
+	position: absolute;
+	right: -0.175em;
+}
+
+div.panels {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.panel  {
+	min-width: 25vh;
+	max-width: 25vmin;
+	min-height: 23vh;
+	max-height: 21vmin;
+	border: 5px var(--pink2-color);
+	border-style: none solid solid none;
+	/* border-radius: 1vh; */
+	margin: 1vh;
+	padding: 1vh;
+	box-shadow: -0.5vh -0.5vh var(--yellow1-color);
+}
+
+div.project {
+	background-color: var(--orange1-color);
+}
+
+div.jam {
+	background-color: var(--yellow5-color);
+}
+
+img.keyart {
+	width: 100%;
+	/* border-radius: 0.5vh; */
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
+div.expertise {
+	display: flex; 
+	justify-content: center; 
+	margin-bottom: -3vh;
+	margin-top: -2vh;
+
+}
+
+div.spacer {
+	height: 2vh;
+}
