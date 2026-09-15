@@ -35,9 +35,10 @@
 html {
 	text-size-adjust: none;
 	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
 	background-color: #ecdcb9cc;
 }
-
 
 body {
 	font-family: Garamond, serif;
@@ -172,7 +173,6 @@ div.bulletbox {
 
 span.bullettext {
 	text-align: center;
-	text-wrap: nowrap;
 	position: relative;
 	padding: 0 1em 0 1em;
 }
@@ -202,7 +202,6 @@ div.panel  {
 	max-height: 21vmin;
 	border: 5px var(--pink2-color);
 	border-style: none solid solid none;
-	/* border-radius: 1vh; */
 	margin: 1vh;
 	padding: 1vh;
 	box-shadow: -0.5vh -0.5vh var(--yellow1-color);
@@ -218,7 +217,6 @@ div.jam {
 
 img.keyart {
 	width: 100%;
-	/* border-radius: 0.5vh; */
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 }
